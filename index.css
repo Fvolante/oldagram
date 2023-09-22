@@ -1,0 +1,112 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/*  GENERAL  */
+
+body {
+    background-color: #f5f5f5;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.app-container {
+    display: block;
+    max-width: 375px;
+    margin: 20px auto;
+    background-color: #FFFFFF;
+}
+/* ----- TYPOGRAPHY ----- */
+
+h3, h2, h4 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+/* ----- GENERAL LAYOUT ----- */
+
+/* Header */
+header {
+    display: flex;
+    padding: 7px 13px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+#logo-img {
+    width: 120px;
+    object-fit: cover;
+}
+
+
+
+/* Post */
+article {
+    padding-bottom: 10px;
+}
+
+.post-header {
+    display: flex;
+    border-bottom: none;
+    padding: 13px 17px;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+figure {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+figure img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* icons */
+.icons img {
+    display: inline-block;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.icons {
+    padding: 20px 17px 0 17px;
+}
+
+/* post content */
+.post-content {
+    padding: 13px 17px;
+}
+
+.post-content p {
+    margin: 0;
+}
+
+.post-content div {
+    margin-bottom: 13px;
+}
+
+article h4 {
+    display: inline-block;
+}
+
+
+/* ----- UTILITIES ----- */
+
+.avatar {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 16px;
+}
